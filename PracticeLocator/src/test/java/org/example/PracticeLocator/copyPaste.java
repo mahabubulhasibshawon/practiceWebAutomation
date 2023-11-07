@@ -16,16 +16,19 @@ public class copyPaste extends DriverSetup{
 		actions.keyDown(Keys.CONTROL);
 		actions.sendKeys("a").keyUp(Keys.CONTROL);
 		actions.build().perform();
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 		
 		//pressing ctrl+c to select 
 		actions.keyDown(Keys.CONTROL);
 		actions.sendKeys("c").keyUp(Keys.CONTROL);
 		actions.build().perform();
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 		
 		WebElement pastElement = driver.findElement(By.xpath("//input[@id='name']"));
 		pastElement.sendKeys(Keys.CONTROL, "v");
+		Thread.sleep(2000);
+		
+		actions.scrollByAmount(100, 800).build().perform();
 		Thread.sleep(5000);
 	}
 }
