@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-07T01:29:41 BDT" name="Default suite" finished-at="2023-11-07T01:30:16 BDT" duration-ms="34337">
+  <suite started-at="2023-11-08T11:51:57 BDT" name="Default suite" finished-at="2023-11-08T11:52:21 BDT" duration-ms="24188">
     <groups>
     </groups>
-    <test started-at="2023-11-07T01:29:41 BDT" name="Default test" finished-at="2023-11-07T01:30:16 BDT" duration-ms="34337">
-      <class name="org.example.PracticeLocator.testActions">
-        <test-method is-config="true" signature="setDriver()[pri:0, instance:org.example.PracticeLocator.testActions@3b35a229]" started-at="2023-11-07T01:29:41 BDT" name="setDriver" finished-at="2023-11-07T01:29:43 BDT" duration-ms="1970" status="PASS">
+    <test started-at="2023-11-08T11:51:57 BDT" name="Default test" finished-at="2023-11-08T11:52:21 BDT" duration-ms="24188">
+      <class name="org.example.PracticeLocator.performScrollingUsingJS">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:org.example.PracticeLocator.performScrollingUsingJS@700fb871]" started-at="2023-11-08T11:51:57 BDT" name="setDriver" finished-at="2023-11-08T11:52:04 BDT" duration-ms="7264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method signature="testMulti()[pri:0, instance:org.example.PracticeLocator.testActions@3b35a229]" started-at="2023-11-07T01:29:43 BDT" name="testMulti" finished-at="2023-11-07T01:30:15 BDT" duration-ms="32040" status="PASS">
+        <test-method signature="testJSexecute()[pri:0, instance:org.example.PracticeLocator.performScrollingUsingJS@700fb871]" started-at="2023-11-08T11:52:04 BDT" name="testJSexecute" finished-at="2023-11-08T11:52:21 BDT" duration-ms="16502" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMulti -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:org.example.PracticeLocator.testActions@3b35a229]" started-at="2023-11-07T01:30:15 BDT" name="closeDriver" finished-at="2023-11-07T01:30:16 BDT" duration-ms="287" status="PASS">
+        </test-method> <!-- testJSexecute -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:org.example.PracticeLocator.performScrollingUsingJS@700fb871]" started-at="2023-11-08T11:52:21 BDT" name="closeDriver" finished-at="2023-11-08T11:52:21 BDT" duration-ms="255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-      </class> <!-- org.example.PracticeLocator.testActions -->
+      </class> <!-- org.example.PracticeLocator.performScrollingUsingJS -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -28,7 +28,8 @@ public class copyPaste extends DriverSetup{
 		pastElement.sendKeys(Keys.CONTROL, "v");
 		Thread.sleep(2000);
 		
-		actions.scrollByAmount(100, 800).build().perform();
+//		actions.scrollByAmount(100, 800).build().perform();
+		actions.scrollToElement(driver.findElement(By.id("mousehover"))).build().perform();//scroling to a web element 
 		Thread.sleep(5000);
 	}
 }
