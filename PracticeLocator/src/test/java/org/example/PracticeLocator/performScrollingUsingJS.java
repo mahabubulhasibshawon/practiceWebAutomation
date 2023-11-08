@@ -1,7 +1,6 @@
 package org.example.PracticeLocator;
 
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver.Window;
 import org.testng.annotations.Test;
 
 public class performScrollingUsingJS extends DriverSetup{
