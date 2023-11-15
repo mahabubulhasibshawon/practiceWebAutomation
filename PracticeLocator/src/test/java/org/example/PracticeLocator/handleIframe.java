@@ -14,7 +14,9 @@ public class handleIframe extends DriverSetup{
 		WebElement mousehoverButton = driver.findElement(By.xpath("//button[@id='mousehover']"));
 		js.executeScript("arguments[0].scrollIntoView();" , mousehoverButton);
 		
-		driver.findElement(By.linkText("Courses")).click();
+		driver.switchTo().frame(0);
+		WebElement courseButton = driver.findElement(By.linkText("Courses"));
+		System.out.println(courseButton.getText());
 		Thread.sleep(3000);
 		
 	}

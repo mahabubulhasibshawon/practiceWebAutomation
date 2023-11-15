@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.example.PracticeLocator.handleIframe">
+      <class name="org.example.PracticeLocator.DifferentWait">
         <methods>
-          <include name="testiframeElements"/>
+          <include name="testWait"/>
           <include name="closeDriver"/>
           <include name="setDriver"/>
         </methods>
-      </class> <!-- org.example.PracticeLocator.handleIframe -->
+      </class> <!-- org.example.PracticeLocator.DifferentWait -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
